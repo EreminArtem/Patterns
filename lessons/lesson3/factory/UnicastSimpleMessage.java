@@ -1,4 +1,5 @@
-package com.ereminartem.lesson3.factory;
+package lesson3.factory;
+
 
 public class UnicastSimpleMessage implements SimpleMessage {
     @Override

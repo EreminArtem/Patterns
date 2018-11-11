@@ -1,4 +1,4 @@
-package com.ereminartem.lesson3.factory;
+package lesson3.factory;
 
 public class BroadcastHighPriorityMessage implements HighPriorityMessage {
     @Override

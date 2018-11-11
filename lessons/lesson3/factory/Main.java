@@ -1,8 +1,5 @@
-package com.ereminartem;
+package lesson3.factory;
 
-import com.ereminartem.lesson3.factory.Assignment;
-import com.ereminartem.lesson3.factory.Fabric;
-import com.ereminartem.lesson3.factory.MessageFactory;
 
 public class Main {
 
