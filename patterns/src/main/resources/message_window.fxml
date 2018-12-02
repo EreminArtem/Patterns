@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="lesson7.Controller"
+      prefWidth="250" prefHeight="250">
+
+    <TextField fx:id="adressField" promptText="To: "></TextField>
+    <StackPane>
+        <HBox>
+            <TextArea fx:id="messageArea" promptText="Write Message here"></TextArea>
+        </HBox>
+    </StackPane>
+    <StackPane>
+        <HBox>
+            <Button fx:id="sendButton" HBox.hgrow="ALWAYS" maxWidth="Infinity" onAction="#sendMessage">Send</Button>
+        </HBox>
+    </StackPane>
+</VBox>
